@@ -1,6 +1,7 @@
 require 'pry'
 require './course'
 require './student'
+require './student_course'
 
 softwares = Course.new("SE",101,"3:00am Every week day")
 data_science = Course.new("DS",102,"6:00pm Every week day")
@@ -13,7 +14,10 @@ mansour = Student.new("Mansour",9,"A+")
 shivang.enroll(data_science)
 shivang.enroll(math)
 
-marc.enroll(softwares)
-mansour.enroll(softwares)
+# marc.enroll(softwares)
+# mansour.enroll(softwares)
+#
+# shivang.enroll(softwares)
+# shivang.drop(math)
 
 binding.pry

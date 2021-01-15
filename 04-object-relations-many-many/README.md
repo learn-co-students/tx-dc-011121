@@ -1,4 +1,14 @@
-# Many to Many Relationships
+## Review
+
+- Single Source of Truth
+- Join model
+
+
+
+
+
+
+## Many to Many Relationships
 
 Based off of yesterday's code, we're going to add the ability to like a tweet. We describe this specific relationship between users and tweets as a many to many relationship. Meaning that a user can like many tweets and a tweet can be liked by many users!
 
