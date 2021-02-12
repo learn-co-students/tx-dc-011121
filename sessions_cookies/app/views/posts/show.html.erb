@@ -1,0 +1,10 @@
+<h1>Title: <%= @post.title %></h1>
+
+<h4>Content:</h4>
+<p> <%= @post.content %> </p>
+
+<p>Likes: <%= @post.likes.count %> </p>
+
+<p> Liked by: <% @post.users.each do |user| %>
+  <%= link_to user.username, user_path(user) %>
+<% end %> </p>
