@@ -10,6 +10,7 @@
 | Intro to ORM & ActiveRecord | [Video](https://youtu.be/_p--cXuxXb4) [Other 1](https://www.youtube.com/watch?v=7RAQ58I19vE&feature=youtu.be) [Other 2](https://www.youtube.com/watch?v=bhFW9ryre6s&feature=youtu.be) |
 | ActiveRecord && ActiveRecord Associations | [Video](https://youtu.be/FAmJXEGu0r4) |
 | Sessions && Cookies | [Video](https://youtu.be/Ig3gRdUk7Dg) |
+| Intro to JS 😻 | [Video](https://youtu.be/9tt7YlvXfO4) |
 
 1. Clone the repo.
 2. Run `git pull` once the lecture code is pushed.
