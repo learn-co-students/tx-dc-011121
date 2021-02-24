@@ -15,7 +15,7 @@
 
 ## Example of Events
 
-hoverover,
+hover-over,
 clicks,
 load,
 submits,
