@@ -13,6 +13,7 @@
 | Intro to JS 😻 | [Video](https://youtu.be/9tt7YlvXfO4) |
 | Scope, Closures && Callbacks | [Video](https://youtu.be/K2ma4Zn6iig) |
 | Intro to the DOM | [Video](https://youtu.be/UqQ_QY_XU0M)|
+| JavaScript Events | [Video](https://youtu.be/dInjiHyxApo)|
 
 1. Clone the repo.
 2. Run `git pull` once the lecture code is pushed.
