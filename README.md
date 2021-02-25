@@ -14,6 +14,8 @@
 | Scope, Closures && Callbacks | [Video](https://youtu.be/K2ma4Zn6iig) |
 | Intro to the DOM | [Video](https://youtu.be/UqQ_QY_XU0M)|
 | JavaScript Events | [Video](https://youtu.be/IdREBmGrXTM)|
+| Server Communication Pt. I | [Video](https://youtu.be/UDtzqf53ox0)|
+
 
 1. Clone the repo.
 2. Run `git pull` once the lecture code is pushed.
