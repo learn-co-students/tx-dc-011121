@@ -1,0 +1,92 @@
+{
+  "pokemon": [
+    {
+      "id": 1,
+      "name": "bulbasaur",
+      "likes": 0,
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+      "type": "grass",
+      "comments": ["Lorem ipsum dolor sit amet.", "Ut ipsum voluptatum sed.", "Equidem detracto deleniti cum te.", "Sale ceteros luptatum duo ei, no mea luptatum adversarium intellegebat"]
+    },
+    {
+      "id": 2,
+      "name": "ivysaur",
+      "likes": 0,
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+      "type": "grass",
+      "comments": ["Equidem detracto deleniti cum te.", "Sale ceteros luptatum duo ei, no mea luptatum adversarium intellegebat"]
+    },
+    {
+      "id": 3,
+      "name": "venusaur",
+      "likes": 0,
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
+      "type": "grass",
+      "comments": ["Ut ipsum voluptatum sed.", "Equidem detracto deleniti cum te.", "Sale ceteros luptatum duo ei, no mea luptatum adversarium intellegebat"]
+    },
+    {
+      "id": 4,
+      "name": "charmander",
+      "likes": 0,
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+      "type": "fire",
+      "comments": []
+    },
+    {
+      "id": 5,
+      "name": "charmeleon",
+      "likes": 0,
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
+      "type": "fire",
+      "comments": ["Lorem ipsum dolor sit amet.", "Ut ipsum voluptatum sed.", "Equidem detracto deleniti cum te.", "Sale ceteros luptatum duo ei, no mea luptatum adversarium intellegebat"]
+    },
+    {
+      "id": 6,
+      "name": "charizard",
+      "likes": 0,
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+      "type": "fire",
+      "comments": ["Equidem detracto deleniti cum te.", "Sale ceteros luptatum duo ei, no mea luptatum adversarium intellegebat"]
+    },
+    {
+      "id": 7,
+      "name": "squirtle",
+      "likes": 0,
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
+      "type": "water",
+      "comments": ["Sale ceteros luptatum duo ei, no mea luptatum adversarium intellegebat"]
+    },
+    {
+      "id": 8,
+      "name": "wartortle",
+      "likes": 0,
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
+      "type": "water",
+      "comments": ["Lorem ipsum dolor sit amet.", "Ut ipsum voluptatum sed.", "Equidem detracto deleniti cum te.", "Sale ceteros luptatum duo ei, no mea luptatum adversarium intellegebat"]
+    },
+    {
+      "id": 9,
+      "name": "blastoise",
+      "likes": 0,
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
+      "type": "water",
+      "comments": ["Lorem ipsum dolor sit amet.", "Ut ipsum voluptatum sed.", "Equidem detracto deleniti cum te.", "Sale ceteros luptatum duo ei, no mea luptatum adversarium intellegebat"]
+    },
+    {
+      "name": "rob",
+      "likes": 0,
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png",
+      "id": 18,
+      "type": "physic",
+      "comments": ["Lorem ipsum dolor sit amet.", "Ut ipsum voluptatum sed.", "Equidem detracto deleniti cum te.", "Sale ceteros luptatum duo ei, no mea luptatum adversarium intellegebat"]
+    },
+    {
+      "name": "ashley",
+      "likes": 0,
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png",
+      "id": 20,
+      "type": "electric",
+      "comments": ["Lorem ipsum dolor sit amet.", "Ut ipsum voluptatum sed.", "Equidem detracto deleniti cum te.", "Sale ceteros luptatum duo ei, no mea luptatum adversarium intellegebat", "Lorem ipsum dolor sit amet.", "Ut ipsum voluptatum sed.", "Equidem detracto deleniti cum te.", "Sale ceteros luptatum duo ei, no mea luptatum adversarium intellegebat"]
+    }
+  ]
+}
