@@ -15,7 +15,7 @@
 | Intro to the DOM | [Video](https://youtu.be/UqQ_QY_XU0M)|
 | JavaScript Events | [Video](https://youtu.be/IdREBmGrXTM)|
 | Server Communication Pt. I | [Video](https://youtu.be/UDtzqf53ox0)|
-| Server Communication Pt. II | [Video](https://youtu.be/d1GsUWQDf1k) |
+| Server Communication Pt. II | [Video](https://youtu.be/d1GsUWQDf1k) --- [Different Lecture](https://www.youtube.com/watch?v=Sbc64E-yQyU&list=PLc6AmvC5Zybw7_TJTbOvZdhPpmP2MmVKy&index=33) |
 
 1. Clone the repo.
 2. Run `git pull` once the lecture code is pushed.
