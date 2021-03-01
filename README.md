@@ -16,6 +16,7 @@
 | JavaScript Events | [Video](https://youtu.be/IdREBmGrXTM)|
 | Server Communication Pt. I | [Video](https://youtu.be/UDtzqf53ox0)|
 | Server Communication Pt. II | [Video](https://youtu.be/-Rmm7_IO6Yw) --- [Different Lecture](https://www.youtube.com/watch?v=Sbc64E-yQyU&list=PLc6AmvC5Zybw7_TJTbOvZdhPpmP2MmVKy&index=33) |
+| Rails API 🚊 | [Video]() |
 
 1. Clone the repo.
 2. Run `git pull` once the lecture code is pushed.
