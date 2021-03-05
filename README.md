@@ -18,7 +18,9 @@
 | Server Communication Pt. II | [Video](https://youtu.be/-Rmm7_IO6Yw) --- [Different Lecture](https://www.youtube.com/watch?v=Sbc64E-yQyU&list=PLc6AmvC5Zybw7_TJTbOvZdhPpmP2MmVKy&index=33) |
 | Rails API 🚊 | [Video](https://youtu.be/frc5Zvo9FGs) |
 | Toy Tale Review 🧸|  [Video](https://youtu.be/KjoEXTNiu3g) | 
-| Woof Woof Doggo Review 🐶 |  [Video](https://youtu.be/4bpNt0Qnh6M) | 
+| Woof Woof Doggo Review 🐶 |  [Video](https://youtu.be/4bpNt0Qnh6M) |
+| Object Oriented JS 🐶 |  [Video](https://youtu.be/9B-JZLmyqT8)  [SPA with OO](https://www.youtube.com/watch?v=xCAtmGUrCK8)|
+
 
 1. Clone the repo.
 2. Run `git pull` once the lecture code is pushed.
