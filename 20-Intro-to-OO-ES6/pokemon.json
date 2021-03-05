@@ -1,0 +1,118 @@
+{
+  "pokemon": [
+    {
+      "id": 1,
+      "name": "bulbasaur",
+      "likes": 14,
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+      "comments": [
+        "Lorem ipsum dolor sit amet.",
+        "Ut ipsum voluptatum sed.",
+        "Equidem detracto deleniti cum te.",
+        "Sale ceteros luptatum duo ei, no mea luptatum adversarium intellegebat"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "ivysaur",
+      "likes": 0,
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+      "comments": [
+        "Equidem detracto deleniti cum te.",
+        "Sale ceteros luptatum duo ei, no mea luptatum adversarium intellegebat"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "venusaur",
+      "likes": 0,
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
+      "comments": [
+        "Ut ipsum voluptatum sed.",
+        "Equidem detracto deleniti cum te.",
+        "Sale ceteros luptatum duo ei, no mea luptatum adversarium intellegebat"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "charmander",
+      "likes": 0,
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+      "comments": []
+    },
+    {
+      "id": 5,
+      "name": "charmeleon",
+      "likes": 0,
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
+      "comments": [
+        "Lorem ipsum dolor sit amet.",
+        "Ut ipsum voluptatum sed.",
+        "Equidem detracto deleniti cum te.",
+        "Sale ceteros luptatum duo ei, no mea luptatum adversarium intellegebat"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "charizard",
+      "likes": 0,
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+      "comments": [
+        "Equidem detracto deleniti cum te.",
+        "Sale ceteros luptatum duo ei, no mea luptatum adversarium intellegebat"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "squirtle",
+      "likes": 0,
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
+      "comments": [
+        "Sale ceteros luptatum duo ei, no mea luptatum adversarium intellegebat"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "wartortle",
+      "likes": 0,
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
+      "comments": [
+        "Lorem ipsum dolor sit amet.",
+        "Ut ipsum voluptatum sed.",
+        "Equidem detracto deleniti cum te.",
+        "Sale ceteros luptatum duo ei, no mea luptatum adversarium intellegebat"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "blastoise",
+      "likes": 0,
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
+      "comments": [
+        "Lorem ipsum dolor sit amet.",
+        "Ut ipsum voluptatum sed.",
+        "Equidem detracto deleniti cum te.",
+        "Sale ceteros luptatum duo ei, no mea luptatum adversarium intellegebat"
+      ]
+    },
+    {
+      "name": "rob",
+      "likes": 0,
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png",
+      "id": 18,
+      "comments": [
+        "Lorem ipsum dolor sit amet.",
+        "Ut ipsum voluptatum sed.",
+        "Equidem detracto deleniti cum te.",
+        "Sale ceteros luptatum duo ei, no mea luptatum adversarium intellegebat"
+      ]
+    },
+    {
+      "name": "Ashley ",
+      "likes": 0,
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/151.png",
+      "comments": [],
+      "id": 19
+    }
+  ]
+}
