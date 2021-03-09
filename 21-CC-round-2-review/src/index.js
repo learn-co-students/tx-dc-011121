@@ -48,10 +48,46 @@ function renderDetails(pup){
     // to the server
     // We need the id of the dog, and the toggled value
 
+    let hobbySection = document.createElement("ul")
+    
+    pup.hobbies.forEach((hobby) => {
+        // define the li
+        let li = document.createElement("li")
+        // populate the li with the hobby
+        li.innerText = hobby 
+        // append the li to the Ul
+        hobbySection.appendChild(li)
+
+        let btn = document.createElement("button")
+            btn.innerText = "X"
+            btn.addEventListener('click', (event) => {
+                // event.target.parentNode.remove()
+                console.log(event.target.parentNode.innerText);
+                let newArray = pup.hobbies.filter(hobby => hobby+"X"  !== event.target.parentNode.innerText)
+
+                let newHobbies = {
+                    hobbies: newArray
+                }
+
+                let reqObj = {
+                    headers: {"Content-Type": "application/json"},
+                    method: "PATCH",
+                    body: JSON.stringify(newHobbies)
+                }
+                console.log(reqObj)
+                fetch(BASE_URL+pup.id, reqObj)
+                    .then(r => r.json())
+                    .then(() => event.target.parentNode.remove())
+            })
+            li.appendChild(btn)
+
+    })
+
+  
 
     let infoSection = document.getElementById("dog-info")
     infoSection.innerHTML = ""
-    infoSection.append(dogName, dogImg, dogBtn)
+    infoSection.append(dogName, dogImg, dogBtn, hobbySection, renderForm(pup))
     
   
 }
@@ -75,4 +111,49 @@ function toggleGoodDog(event){
 
     fetch(BASE_URL+event.target.id, reqObj)
     
+}
+
+
+function renderForm(pup){
+    console.log(pup)
+    let form = document.createElement("form")
+    let hobbyInput = document.createElement("input")
+        hobbyInput.type = "text"
+        hobbyInput.name = "hobbyName"
+
+    let submitBtn = document.createElement("input")
+        submitBtn.type = "submit"
+
+    form.append(hobbyInput, submitBtn)
+
+    form.addEventListener("submit", (event) => addHobby(event, pup))
+
+    return form
+}
+
+function addHobby(event, pup) {
+    event.preventDefault()
+    console.log(pup.hobbies)
+    // let hobbySection = document.querySelector("ul")
+
+    //  let li = document.createElement("li")
+    //     // populate the li with the hobby
+    //     li.innerText = event.target.hobbyName.value
+    //     // append the li to the Ul
+    //     hobbySection.appendChild(li)
+
+
+        let newHobbies = {
+            hobbies: [...pup.hobbies, event.target.hobbyName.value]
+        }
+        // We need the dog id, and new object to send to server
+        let reqObj = {}
+            reqObj.headers = {"Content-Type": "application/json"}
+            reqObj.method = "PATCH"
+            reqObj.body = JSON.stringify(newHobbies)
+
+        fetch(BASE_URL+pup.id, reqObj)
+            .then(r => r.json())
+            .then((pup) => renderDetails(pup))
+
 }

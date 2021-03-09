@@ -5,7 +5,11 @@
       "name": "Mr. Bonkers",
       "isGoodDog": false,
       "image": "https://curriculum-content.s3.amazonaws.com/js/woof-woof/dog_1.jpg",
-      "hobbies": []
+      "hobbies": [
+        "being happy",
+        "being fluffy",
+        "some other stuff"
+      ]
     },
     {
       "id": 2,
@@ -19,7 +23,9 @@
       "name": "Skittles",
       "isGoodDog": true,
       "image": "https://curriculum-content.s3.amazonaws.com/js/woof-woof/dog_3.jpg",
-      "hobbies": []
+      "hobbies": [
+        "Not eating skittles"
+      ]
     },
     {
       "id": 4,
@@ -29,11 +35,15 @@
       "hobbies": []
     },
     {
+      "0": "laughing",
+      "1": "some other stuff",
       "id": 5,
       "name": "Lucipher",
       "isGoodDog": false,
       "image": "https://curriculum-content.s3.amazonaws.com/js/woof-woof/dog_5.jpg",
-      "hobbies": []
+      "hobbies": [
+        "some other stuff"
+      ]
     },
     {
       "id": 6,
