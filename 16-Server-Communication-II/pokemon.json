@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "bulbasaur",
-      "likes": 14,
+      "likes": 16,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
       "comments": [
         "Lorem ipsum dolor sit amet.",
@@ -15,7 +15,7 @@
     {
       "id": 2,
       "name": "ivysaur",
-      "likes": 0,
+      "likes": 6,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
       "comments": [
         "Equidem detracto deleniti cum te.",
@@ -55,7 +55,7 @@
     {
       "id": 6,
       "name": "charizard",
-      "likes": 0,
+      "likes": 1,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
       "comments": [
         "Equidem detracto deleniti cum te.",

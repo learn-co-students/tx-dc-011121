@@ -62,13 +62,17 @@ const renderPokemon = (pokemon) => {
             delPokemon(pokemon, card)
           
         })
-    // pokemon.comments.forEach(comment => {
-    //     let newCom = document.createElement('li')
-    //         newCom.innerText = comment
-    //         newCom.classList.add('list-group-item')
-    //     commentList.appendChild(newCom)
-    // })
 
+    pokemon.comments.forEach(comment => {
+        // create an li 
+        let pokeComment = document.createElement("li")
+        // fill in the li with the comment data
+        pokeComment.innerText = comment
+        // append that li to the ul
+        commentList.appendChild(pokeComment)
+    })
+
+ 
     cardBody.append(cardTitle, commentList, likeBtn, delBtn)
     card.append(img, cardBody)
 
@@ -77,21 +81,28 @@ const renderPokemon = (pokemon) => {
 
 // Like a pokemon
 function likePokemon(event){
- 
+    
+    // create an object with a new value to sent to the server
     let newLikes = {
-        likes: +event.target.innerText.split(" ")[1] + 1
+        likes: parseInt(event.target.innerText.split(" ")[1]) + 1
     }
 
+    // Optimistic rendering 
+    // event.target.innerText = `Likes: ${newLikes.likes}`
+    
+    // Create a reqObj
     let reqObj = {
         headers: {"Content-Type": "application/json"},
         method: "PATCH",
         body: JSON.stringify(newLikes)
     }
-    fetch(BASE_URL + event.target.id, reqObj)
+    //Make the fetch call (Dont forget the id)
+
+    fetch(BASE_URL+event.target.id, reqObj)
         .then(r => r.json())
-        .then(updatedPokemon => {
-            document.getElementById(updatedPokemon.id).innerText = `Likes: ${updatedPokemon.likes}`
-        })
+        .then((updatedPokemon) => document.getElementById(updatedPokemon.id).innerText = `Likes: ${updatedPokemon.likes}`)
+    //We wil use the res, to update the DOM
+ 
 }
 
 // Create a new pokemon
@@ -103,6 +114,7 @@ function handleSubmit(e){
         sprite: e.target.pokeImg.value,
         comments: []
     }
+
     let reqObj = {
         headers: {"Content-Type": "application/json"},
         method: "POST",
@@ -118,3 +130,4 @@ function delPokemon(pokemon, card){
     fetch(BASE_URL+pokemon.id, {method: "DELETE"})
         .then(() => card.remove())
 }
+
