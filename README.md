@@ -21,6 +21,8 @@
 | Woof Woof Doggo Review 🐶 |  [Video](https://youtu.be/4bpNt0Qnh6M) |
 | Object Oriented JS 💻 |  [Video](https://youtu.be/9B-JZLmyqT8) --- [SPA with OO](https://www.youtube.com/watch?v=xCAtmGUrCK8)|
 | CC Review 🐶 |  [Video](https://youtu.be/CPE7PpxpHrU) |
+| Intro to data structures: The Queue |  [Video](https://youtu.be/VoDZwt-Hni4) |
+
 
 1. Clone the repo.
 2. Run `git pull` once the lecture code is pushed.
