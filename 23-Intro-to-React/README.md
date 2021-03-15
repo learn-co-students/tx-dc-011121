@@ -21,7 +21,7 @@
 ## Thinking in Components: class vs. functional
 
 #### functional - shorter; more suscint
-
+```js
 const App = () => {
 return (<div>JSX</div>)
 }
@@ -29,9 +29,9 @@ return (<div>JSX</div>)
 function App(){
 return (<div>JSX</div>)
 }
-
+```
 #### class - extend React.Component; have state and lifecycle methods
-
+```js
 class App extends Component {
 render(){
 return (<div>JSX</div>)
@@ -43,5 +43,5 @@ render(){
 return (<div>JSX</div>)
 }
 }
-
+```
 ## Default exports and imports
