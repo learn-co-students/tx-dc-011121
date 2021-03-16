@@ -1,9 +1,9 @@
 # React Props & State
 
 ## Objectives
-- [ ] Idea of components
+- [ ] Idea of a component
 - [ ] Declarative vs Imperative Programming
-- [ ] Passing values to components
+- [ ] Passing information to/from components
 - [ ] Changing the values?
 
 ### Review
@@ -25,7 +25,7 @@ This is a key component of declarative programming in React: we tie our componen
 
 `setState` can take an object OR a function as its first argument. Use the function when you intend to use the old state values when writing the new state values.
 
-### Code
+### Starter Code
 
 ```html
     <header>
@@ -35,4 +35,17 @@ This is a key component of declarative programming in React: we tie our componen
     <main>
       <!-- Add our Pokemon -->
     </main>
+```
+
+```html
+  <div class="card" data-id="1"><p>Prince</p>
+    <button data-trainer-id="1">Add Pokemon</button>
+    <ul>
+      <li>Jacey (Kakuna) <button class="release" data-pokemon-id="140">Release</button></li>
+      <li>Zachariah (Ditto) <button class="release" data-pokemon-id="141">Release</button></li>
+      <li>Mittie (Farfetch'd) <button class="release" data-pokemon-id="149">Release</button></li>
+      <li>Rosetta (Eevee) <button class="release" data-pokemon-id="150">Release</button></li>
+      <li>Rod (Beedrill) <button class="release" data-pokemon-id="151">Release</button></li>
+    </ul>
+  </div>
 ```

@@ -17,12 +17,13 @@
 | Server Communication Pt. I | [Video](https://youtu.be/UDtzqf53ox0)|
 | Server Communication Pt. II | [Video](https://youtu.be/-Rmm7_IO6Yw) --- [Different Lecture](https://www.youtube.com/watch?v=Sbc64E-yQyU&list=PLc6AmvC5Zybw7_TJTbOvZdhPpmP2MmVKy&index=33) |
 | Rails API 🚊 | [Video](https://youtu.be/frc5Zvo9FGs) |
-| Toy Tale Review 🧸|  [Video](https://youtu.be/KjoEXTNiu3g) | 
+| Toy Tale Review 🧸|  [Video](https://youtu.be/KjoEXTNiu3g) |
 | Woof Woof Doggo Review 🐶 |  [Video](https://youtu.be/4bpNt0Qnh6M) |
 | Object Oriented JS 💻 |  [Video](https://youtu.be/9B-JZLmyqT8) --- [SPA with OO](https://www.youtube.com/watch?v=xCAtmGUrCK8)|
 | CC Review 🐶 |  [Video](https://youtu.be/CPE7PpxpHrU) --- [second Review](https://youtu.be/QLJhL3FlHb8) |
 | Intro to data structures: The Queue |  [Video](https://youtu.be/VoDZwt-Hni4) |
 | Intro to React 👾 |  [Video](https://youtu.be/w9GD0UBFJYE) |
+| React Props & State 🎉 |  [Video](https://youtu.be/ZNUb1Jev8YQ) |
 
 1. Clone the repo.
 2. Run `git pull` once the lecture code is pushed.
