@@ -6,7 +6,9 @@ In this lecture we will learn how to
 - [ ] Pass callbacks and state to the components that need them as props
 - [ ] Define Conditional Rendering
 
-- [ ] Our apps user stories:
+=================================================================
+
+Our apps user stories:
 - [ ] As a user, when I click “see the wizards” It should render the SearchContainer Component
 - [ ] The Search Container should render all the wizards
 - [ ] When I click the navbar brand it should render the Home page again 
