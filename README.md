@@ -24,6 +24,7 @@
 | Intro to data structures: The Queue |  [Video](https://youtu.be/VoDZwt-Hni4) |
 | Intro to React 👾 |  [Video](https://youtu.be/w9GD0UBFJYE) |
 | React Props & State 🎉 |  [Video](https://youtu.be/ZNUb1Jev8YQ) |
+| React State & Events 🎃 |  [Video](https://youtu.be/aCr54OQYN30) |
 
 1. Clone the repo.
 2. Run `git pull` once the lecture code is pushed.
