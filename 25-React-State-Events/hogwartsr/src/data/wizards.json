@@ -1,0 +1,60 @@
+{
+  "wizards": [
+    {
+      "id": 1,
+      "name": "Harry Potter",
+      "house": "Gryffindor",
+      "points": 0,
+      "image": "https://api.time.com/wp-content/uploads/2014/07/301386_full1.jpg?w=800&quality=85"
+    },
+    {
+      "id": 2,
+      "name": "Hermione Granger",
+      "house": "Gryffindor",
+      "points": 0,
+      "image": "http://images4.fanpop.com/image/forum/topics/10000/10270_1298602286703_240_300.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Draco Malfoy",
+      "house": "Slytherin",
+      "points": 0,
+      "image": "https://64.media.tumblr.com/2e321fc7cf1b39e04ca2a074b37519c8/de7900a8269cc644-eb/s400x600/cf270baf1b27c127debc9ebc618de421f0d4228d.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Professor Lupin",
+      "house": "Gryffindor",
+      "points": 0,
+      "image": "https://pbs.twimg.com/profile_images/1032264079833018369/zxI__C-m_400x400.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Cho Chang",
+      "house": "Ravenclaw",
+      "points": 0,
+      "image": "https://img.buzzfeed.com/store-an-image-prod-us-east-1/r1y7hKZ77.png?output-format=auto&output-quality=auto&downsize=400:*"
+    },
+    {
+      "id": 12,
+      "name": "Voldemort",
+      "house": "Slytherin",
+      "points": 0,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB96ssiqrhU37KRCdFkb_GgIdrgLMxOMceDlXE3i8OfQy6K0UpBzHWTyTRZR0G9iDjpvI&usqp=CAU"
+    },
+    {
+      "id": 13,
+      "name": "Narcissa Black",
+      "house": "Slytherin",
+      "points": 0,
+      "image": "https://media1.popsugar-assets.com/files/thumbor/e5FwtQAFVUpPopG71uE5si59kcg/1463x0:4627x2000/fit-in/728xorig/filters:format_auto-!!-:strip_icc-!!-/2020/09/16/941/n/1922153/871b37c35f6285439ee0c5.22548611_/i/narcissa-malfoy-hair-dye-harry-potter-tiktok-trend.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Severus Snape",
+      "house": "Slytherin",
+      "points": 0,
+      "image": "https://i.pinimg.com/originals/59/24/ad/5924add6a885a0a4a4423e24cdaf01f9.jpg"
+    }
+  ]
+}
