@@ -6,7 +6,7 @@
 | Intro to OO 🔸 | [Video](https://youtu.be/Y1tLv3JdqV4) |
 | Object Relations (One to Many) ☝🏻 | [Video](https://youtu.be/NQLJpxQOtxE) -- [Past Lecture](https://www.youtube.com/watch?v=_Sji48pywrE&feature=youtu.be) |
 | Object Relations (Many to Many) ✋🏻 | [Video](https://youtu.be/J99YaIgLsak) -- [Past Lecture](https://www.youtube.com/watch?v=7r5et9q2rnM&feature=youtu.be) |
-| Single Source of Truth & OO Review 💼 | [Video](https://youtu.be/SCmcZUwc-Hg) |
+| Single Source of Truth & OO Review 💿 | [Video](https://youtu.be/SCmcZUwc-Hg) |
 | Intro to ORM & ActiveRecord | [Video](https://youtu.be/_p--cXuxXb4) [Other 1](https://www.youtube.com/watch?v=7RAQ58I19vE&feature=youtu.be) [Other 2](https://www.youtube.com/watch?v=bhFW9ryre6s&feature=youtu.be) |
 | ActiveRecord && ActiveRecord Associations | [Video](https://youtu.be/FAmJXEGu0r4) |
 | Sessions && Cookies | [Video](https://youtu.be/Ig3gRdUk7Dg) |
@@ -25,6 +25,7 @@
 | Intro to React 👾 |  [Video](https://youtu.be/w9GD0UBFJYE) |
 | React Props & State 🎉 |  [Video](https://youtu.be/ZNUb1Jev8YQ) |
 | React State & Events 🎃 |  [Video](https://youtu.be/aCr54OQYN30) |
+| React Forms & Events 💿 |  [Video](https://youtu.be/yiwUuFSKyhc) |
 
 1. Clone the repo.
 2. Run `git pull` once the lecture code is pushed.
