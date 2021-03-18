@@ -3,40 +3,7 @@ const URL = "http://localhost:3000/wizards"
 
 export default class WizForm extends Component {
 
-    state = {
-        name: "",
-        image: "",
-        house: ""
-    }
-
-    handleSumbit = (e) => {
-        e.preventDefault()
-        let newWiz = {
-            name: this.state.name,
-            image: this.state.image,
-            house: this.state.house,
-            points: 0
-        }
-
-        let reqPack = {
-            headers: {"Content-Type": "application/json"},
-            method: "POST",
-            body: JSON.stringify(newWiz)
-        }
-        
-        fetch(URL, reqPack)
-            .then(r => r.json())
-            .then(newWiz => {
-                this.props.createAWizard(newWiz)
-                this.setState({
-                    name: "",
-                    image: "",
-                    house: ""
-                })
-            })
-
-    }
-
+ 
     render() {
         return (
             <>

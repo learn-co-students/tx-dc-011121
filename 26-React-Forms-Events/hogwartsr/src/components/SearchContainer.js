@@ -35,12 +35,12 @@ export default class SearchContainer extends Component {
    
         return (
             <div className="container mt-5">
-                <form>
-                     <div className="form-group">
-                       <label htmlFor="search-text">Search by House:</label>
-                       <input onChange={this.changeSearch} type="text" className="form-control" id="search-text" placeholder="gryffindor sucks"/>
-                    </div>
-                </form>
+               
+                <div className="form-group">
+                    <label htmlFor="search-text">Search by House:</label>
+                    <input onChange={this.changeSearch} type="text" className="form-control" id="search-text" placeholder="gryffindor sucks"/>
+                </div>
+               
                 <div className="row justify-content-md-center">
                     {this.filteredWizards().map(
                         wizard => <StudentCard wizard={wizard} key={wizard.id} />
