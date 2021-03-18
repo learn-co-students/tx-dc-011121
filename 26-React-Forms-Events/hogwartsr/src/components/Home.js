@@ -1,4 +1,4 @@
-const Home = ({ changeToSearch }) => {
+const Home = ({ changeToSearch, changeToGame }) => {
     
     return (
           <div className="jumbotron bg-secondary text-center text-danger">
@@ -12,7 +12,7 @@ const Home = ({ changeToSearch }) => {
                             <span>See the Wizards</span>
                         </button>
         
-                        <button className="btn btn-danger text-secondary btn-lg m-2">
+                        <button onClick={changeToGame} className="btn btn-danger text-secondary btn-lg m-2">
                             <span>Make a Team</span>
                         </button>
                     </div>

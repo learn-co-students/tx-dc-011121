@@ -1,8 +1,10 @@
-const StudentCard = ({ wizard }) => {
-    const { name, image, house, points } = wizard
+const StudentCard = ({ wizard, clickAction }) => {
+
+    const { name, image, house, points, id } = wizard
+
     return (
         <div className="col-sm-3 mb-1" >
-            <div className="card text-center" >
+            <div onClick={() => clickAction(id)} className="card text-center" >
                 <img src={image} className="card-img-top" alt="..." />
                 <div className="card-body">
                     <h5 className="card-title">{name}</h5>

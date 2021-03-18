@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 
 //Components
 import StudentCard from './StudentCard'
+import WizForm from './WizForm'
 
 export default class SearchContainer extends Component {
 
@@ -15,8 +16,6 @@ export default class SearchContainer extends Component {
     componentDidMount = async () => {
         const res = await fetch('http://localhost:3001/wizards')
         const wizards = await res.json()
-
-
         this.setState({ wizards })
     }
 
@@ -29,13 +28,17 @@ export default class SearchContainer extends Component {
         return filteredWizards
     }
 
+    addNewWizard = (newWizard) => {
+        this.setState({wizards: [...this.state.wizards, newWizard]})
+    }
+
 
     render(){
         
    
         return (
             <div className="container mt-5">
-               
+                <WizForm addNewWizard={this.addNewWizard}/>
                 <div className="form-group">
                     <label htmlFor="search-text">Search by House:</label>
                     <input onChange={this.changeSearch} type="text" className="form-control" id="search-text" placeholder="gryffindor sucks"/>

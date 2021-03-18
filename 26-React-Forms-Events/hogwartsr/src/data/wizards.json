@@ -55,6 +55,27 @@
       "house": "Slytherin",
       "points": 0,
       "image": "https://i.pinimg.com/originals/59/24/ad/5924add6a885a0a4a4423e24cdaf01f9.jpg"
+    },
+    {
+      "name": "NotDraco",
+      "house": "Ravenclaw",
+      "points": 0,
+      "image": "https://64.media.tumblr.com/2e321fc7cf1b39e04ca2a074b37519c8/de7900a8269cc644-eb/s400x600/cf270baf1b27c127debc9ebc618de421f0d4228d.jpg",
+      "id": 15
+    },
+    {
+      "name": "SuperHarry",
+      "house": "Hufflepuff",
+      "points": 0,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB96ssiqrhU37KRCdFkb_GgIdrgLMxOMceDlXE3i8OfQy6K0UpBzHWTyTRZR0G9iDjpvI&usqp=CAU",
+      "id": 16
+    },
+    {
+      "name": "Adam",
+      "house": "Not Gryfinndor ",
+      "points": 0,
+      "image": "https://64.media.tumblr.com/2e321fc7cf1b39e04ca2a074b37519c8/de7900a8269cc644-eb/s400x600/cf270baf1b27c127debc9ebc618de421f0d4228d.jpg",
+      "id": 17
     }
   ]
 }
