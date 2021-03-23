@@ -26,6 +26,7 @@
 | React Props & State 🎉 |  [Video](https://youtu.be/ZNUb1Jev8YQ) |
 | React State & Events 🎃 |  [Video](https://youtu.be/aCr54OQYN30) |
 | React Forms & Events 💿 |  [Video](https://youtu.be/yiwUuFSKyhc) |
+| React FSushi Saga 🍣 |  [Video](https://youtu.be/zdcrZyJeEYs) |
 
 1. Clone the repo.
 2. Run `git pull` once the lecture code is pushed.
