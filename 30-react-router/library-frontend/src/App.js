@@ -2,9 +2,17 @@ import React from 'react';
 
 import Header from './components/Header';
 import UserForm from './components/UserForm';
+import SignUpForm from './components/SignUpForm';
 import NewGame from './components/NewGame';
 
 import GamesContainer from './containers/GamesContainer';
+
+import { 
+  BrowserRouter as Router, 
+  Route, 
+  Redirect,
+  Switch
+} from 'react-router-dom';
 
 const API = 'http://localhost:3000'
 const GAMES = API + `/games`
@@ -41,9 +49,33 @@ class App extends React.Component {
     return (
       <div className="App">
         <Header />
-        <GamesContainer games={this.state.games} deleteGame={this.deleteGame} />
-        <UserForm />
-        <NewGame addGame={this.addGame} />
+
+        <Router>
+          <Switch>
+            <Route path='/new'>
+              {
+                localStorage.getItem('auth_key') ? <NewGame addGame={this.addGame} /> : <Redirect to="/login" />
+              }
+            </Route>
+            
+            <Route exact path='/'>
+              <GamesContainer games={this.state.games} deleteGame={this.deleteGame} />
+            </Route>
+            
+            <Route path='/login'>
+              <UserForm />
+            </Route>
+
+            <Route path='/signup'>
+              <SignUpForm />
+            </Route>
+
+            <Route>
+              <Redirect to='/' />
+            </Route>
+          </Switch>
+        </Router>
+        
       </div>
     );
   }

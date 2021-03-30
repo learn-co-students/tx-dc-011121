@@ -13,15 +13,15 @@ const Header = () => {
                 </Nav.Item>
 
                 <Nav.Item as="li">
-                    <Nav.Link eventKey="new" href="#newgame">Add New Game</Nav.Link>
+                    <Nav.Link eventKey="new" href="/new">Add New Game</Nav.Link>
                 </Nav.Item>
                 
                 <Nav.Item as="li">
-                    <Nav.Link eventKey="login">Login</Nav.Link>
+                    <Nav.Link eventKey="login" href="/login">Login</Nav.Link>
                 </Nav.Item>
                 
                 <Nav.Item as="li">
-                    <Nav.Link eventKey="signup">Signup</Nav.Link>
+                    <Nav.Link eventKey="signup" href="/signup">Signup</Nav.Link>
                 </Nav.Item>
             </Nav>
         </>

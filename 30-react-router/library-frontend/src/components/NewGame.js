@@ -1,6 +1,8 @@
 import React from 'react';
 import { Form, Button } from 'react-bootstrap';
 
+import { withRouter } from 'react-router';
+
 const Platforms = () => [
     'Nintendo Switch',
     'PC',
@@ -31,12 +33,16 @@ class NewGame extends React.Component {
         fetch('http://localhost:3000/games',{
             method: "POST",
             headers: {
-                'Content-Type': 'application/json'
+                'Content-Type': 'application/json',
+                'Auth-Key': localStorage.getItem('auth_key')
             },
             body: JSON.stringify({ game: newGameObj })
         })
         .then(res => res.json())
-        .then(newGame => this.props.addGame(newGame))
+        .then(newGame => {
+            this.props.addGame(newGame)
+            this.props.history.push('/')
+        })
     }
 
     render(){
@@ -75,4 +81,4 @@ class NewGame extends React.Component {
     }
 }
 
-export default NewGame;
+export default withRouter(NewGame);

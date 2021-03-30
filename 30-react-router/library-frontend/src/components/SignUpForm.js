@@ -1,9 +1,10 @@
 import React from 'react';
 import { Form, Button } from 'react-bootstrap';
 
-import { withRouter } from 'react-router';
+import { withRouter } from 'react-router'
 
-class UserForm extends React.Component {
+
+class SignUpForm extends React.Component {
     
     state = {
         email: '',
@@ -18,25 +19,24 @@ class UserForm extends React.Component {
 
     handleSubmit = (e) => {
         e.preventDefault()
-        fetch('http://localhost:3000/sessions',{
+        fetch('http://localhost:3000/users',{
             method: "POST",
             headers: {
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify({ user: { ...this.state }})
         }).then(res => res.json())
-        .then(msg => {
-            localStorage.setItem('auth_key',msg.token)
-            this.props.history.push('/')
+        .then(_ => {
+            alert(_.msg)
+            this.props.history.push('/login')
          })
     }
-
 
     render(){
         return (
             <Form style={{ width: "800px", margin: '0 auto' }} onSubmit={this.handleSubmit}>
                 <span> 
-                    <h3> Login</h3> 
+                    <h3>Signup </h3> 
                 </span>
     
                 <Form.Group controlId="formBasicEmail">
@@ -59,4 +59,4 @@ class UserForm extends React.Component {
     }
 }
 
-export default withRouter(UserForm);
+export default withRouter(SignUpForm);
