@@ -29,7 +29,7 @@
 | React Sushi Saga 🍣 |  [Video](https://youtu.be/zdcrZyJeEYs) |
 | React Stocks Review 💸 |  [Video](https://youtu.be/hwQgBAmEcvQ) |
 | React Auth|  [Pt.1](https://www.youtube.com/watch?v=rs-9aKCj8fQ) - [Pt.2](https://www.youtube.com/watch?v=lkaGXo1wER0)|
-| React Hooks and Context (global state)| [video](https://youtu.be/JbWopBbLY2k) --- [Finished Code](https://github.com/adamwjo/react-context-api)|
+| React Hooks and Context (global state)| [Video](https://youtu.be/JbWopBbLY2k) --- [Finished Code](https://github.com/adamwjo/react-context-api)|
 
 
 1. Clone the repo.
