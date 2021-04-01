@@ -31,7 +31,7 @@
 | React Auth|  [Pt.1](https://www.youtube.com/watch?v=rs-9aKCj8fQ) - [Pt.2](https://www.youtube.com/watch?v=lkaGXo1wER0)|
 | React Hooks and Context (global state)| [Video](https://youtu.be/JbWopBbLY2k) --- [Finished Code](https://github.com/adamwjo/react-context-api)|
 | React Router & JWT Auth| [Video](https://youtu.be/zTClFMKkoB8)
-
+| Intro to Redux | [Video](https://youtu.be/6Yp7En0V2gY)
 
 1. Clone the repo.
 2. Run `git pull` once the lecture code is pushed.
