@@ -33,6 +33,7 @@
 | React Router & JWT Auth| [Video](https://youtu.be/zTClFMKkoB8)
 | Intro to Redux | [Video](https://youtu.be/6Yp7En0V2gY)
 | React Redux | [Video](https://youtu.be/S7Udjiz3cBY)
+| Redux with Hooks | [Video](https://youtu.be/LjYKqsOT_uA)
 
 1. Clone the repo.
 2. Run `git pull` once the lecture code is pushed.
